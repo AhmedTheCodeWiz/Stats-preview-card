@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+@font-face { 
+    font-family: 'LexendDeca';
+    src: url(fonts/LexendDeca-VariableFont_wght.ttf);
+}
+    /* I wont lie i can barely tell the differnce between the fonts */
+
+:root{
+    --almost-black-blue: 	#090b1a;
+    --watered-down-blue: 	#1b1938;
+    --dark-lavender: 	#aa5cdb;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--almost-black-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    background-color: var(--watered-down-blue);
+    width: 1110px;
+    height: 445px;
+    border-radius: 10px;
+    padding: 4rem;
+    position: relative;
+    
+}
+.title{
+    color: white;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.title span{
+    color: #aa5cdb;
+}
+.description{
+    margin-top: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Inter';
+    line-height: 1.5rem;
+    font-weight: 300;
+}
+.info{
+    margin: 0;
+    padding-top: 5rem;
+    display: flex;
+    font-size: 1rem;
+}
+.info div{
+    color: white;
+    font-family: 'Inter';
+}
+.templates-cont, .queries-cont{
+    margin-left: 4.2rem;
+}
+.cat{
+    font-family: 'LexendDeca';
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 200;
+
+    font-size: 0.9rem;
+}
+
+.office{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%; 
+}
+.panel{
+    background-color: rgba(84, 9, 121, 0.62);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%; 
+}
